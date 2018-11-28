@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="58dp"
         android:text="@string/title"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -28,7 +28,9 @@
         android:id="@+id/image_eightBall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="8BallImage"
         app:srcCompat="@drawable/ball1" />
 
     <Button
@@ -40,6 +42,6 @@
         android:layout_marginBottom="38dp"
         android:textColor="#ffffffff"
         android:background="#3F51B5"
-        android:text="Ask" />
+        android:text="@string/askButton" />
 
 </RelativeLayout>
